@@ -118,3 +118,13 @@ const boolVal = true;
 // https://docs.google.com/presentation/d/1eepDn27eQ8DbRJy7LHTkrIwYx8hQwuo0aDKGS_x10yc/edit#slide=id.g262ab56d35d_1_155
 // TypeScript Part 2
 // https://docs.google.com/presentation/d/1mFtLVoMnXnSVtIRSr3GPCgIqgt-g_hgEqmV4qDBUxwg/edit#slide=id.gd1bf8d60a4_0_0
+
+let a: number = 5;
+let b: number = 2;
+let c: number;
+
+debugger;
+
+c = ++a + a++ + --b + b-- + a + b++ + b;
+
+console.log(c);
