@@ -1,0 +1,8 @@
+js ma compile krny ka lia > tsc main.ts 
+Console pr print krwany ka lia > node main.js
+typescript install krny ka lia >npm install --global typescript@5.0.2
+tsconfig.json ki file banany ka lia > npm  init  -y
+dependensy install krny ka lia >  npm i @types/node -D
+hoisting: preceed declaration in the code
+Temporal Dead Zone: lines or line before the declaration of the code in the scope of a particular variable, object or array.
+    
